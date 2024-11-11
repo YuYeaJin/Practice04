@@ -11,7 +11,7 @@ public class Ex01 {
 		int result = 0;
 		
 		for( int i = 0; i <= intArray.length; i++) {
-			result = result + intArray[i];
+			result = result + (intArray.length-1);
 		}
 		System.out.println(result);
 
